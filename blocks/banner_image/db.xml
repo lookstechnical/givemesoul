@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btDCBannerImage">
+		<field name="bID" type="I"><key /><unsigned /></field>
+
+		<field name="field_1_image_fID" type="I"></field>
+		<field name="field_1_image_externalLinkURL" type="C" size="255"></field>
+		<field name="field_1_image_altText" type="C" size="255"></field>
+
+		<field name="field_2_wysiwyg_content" type="X2"></field>
+
+
+	</table>
+</schema>

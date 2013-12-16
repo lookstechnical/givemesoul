@@ -1,0 +1,164 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import 'compass/css3';
+
+@import "grid";
+
+
+$total_width: 100%;
+$container_margin: 1%;
+$gutter_width: 1%;
+$max_width: 90%;
+
+div,span,section,header,footer,article{box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box}
+
+.container img{width:100%}
+
+body{
+	font-family: 'arial'
+}
+
+.clear{@include clearfix()}
+header {
+	width:100%;
+	padding-top:10px;
+	position: fixed;
+	top:0px;
+	background: white;
+	z-index:4;
+	box-shadow: 0px 3px 5px #888888;
+	
+	.centered {
+		
+		@include container();
+		width:100%;
+		margin:0px auto;
+		
+		section {
+			@include column(12);
+			text-align: center;
+			img{width:auto}
+		}
+		@include generate_grid_positions(section, 12);
+	}
+}
+
+.banner {
+	margin-top:113px;
+	width:100%;
+	@include clearfix();
+	img{width:100%}
+	.banner_image {
+		position:relative;
+		.banner_text{
+			position:absolute;
+			top:35%;
+			left:0px;
+			color:white;
+			width: 100%;
+		}
+	}
+}
+
+.main-content {
+	@include clearfix();
+	width:100%;
+    margin:0px auto;
+    background: white;
+    min-height: 200px;
+    z-index: 3;
+    position: relative;
+}
+
+
+
+footer{
+	width:100%;
+	background: white;
+	min-height:50px;
+}
+
+.full-width,.twocolumns,.threecolumns,.fourcolumn{
+	section{@include column(12)}
+	@include generate_grid_positions(section, 12);
+	@include clearfix();
+	padding: 0 2%;
+}
+
+.full-width{
+	padding:0;
+}
+
+.icon img{padding:0px 0px 0px 0px}
+.tagline{font-size: 11px; font-weight: bold; }
+
+
+@media screen and (min-device-width: 720px)  and (min-width: 720px) {
+	.banner{margin-top:50px;}
+	header {
+		.centered {
+			width:100%;
+			padding:0 2%;
+			section {
+			@include column(4);
+			}
+			@include generate_grid_positions(section, 4);
+			
+			.tagline{text-align: right;padding:20px 0px 0px 0px}
+			.icon{text-align: left}
+		}
+	}
+	
+	
+	.twocolumns{
+		padding: 0 2%;
+		section{@include column(6)}
+		@include generate_grid_positions(section, 6);
+	}
+	
+	.fourcolumns{
+		padding: 0 2%;
+		section{@include column(6)}
+		@include generate_grid_positions(section, 6);
+	}
+	
+	.threecolumns {
+		padding: 0 2%;
+	}
+}
+
+
+@media screen and (min-device-width: 920px)  and (min-width: 920px) {
+	.banner{margin-top:50px;}
+	
+	header {
+		.centered {
+			width:920px;
+		}
+	}
+	.main-content {width:920px; margin-top:-80px;}
+	
+	.twocolumns{
+		section{@include column(6)}
+		@include generate_grid_positions(section, 6);
+	}
+	.threecolumns{
+		
+		section{@include column(4)}
+		@include generate_grid_positions(section, 4);
+	}
+	.fourcolumns{
+		section{@include column(3)}
+		@include generate_grid_positions(section, 3);
+	}
+	
+}
+
+.editable{
+	margin-top: 10px;
+	position: relative;
+}

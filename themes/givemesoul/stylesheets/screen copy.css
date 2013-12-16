@@ -1,0 +1,451 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/**
+ * Profound Grid
+ * 
+ * Built in Sass (SCSS) this responsive/adaptive grid supports both fixed and fluid layouts, 
+ * relative and fixed gutters, as well as your choice of semantic markup or generic '.grid-x' classes.
+ * 
+ * The biggest difference to other grid systems is the use of negative margins for column
+ * placements, avoiding the subpixel rounding issues that usually break/uglify fluid layouts
+ * in some browsers.
+ * 
+ * Nested columns are supported too, without having to reset the grid on each level. 
+ *
+ * Credits/Inspiration:
+ * -------------------
+ * Semantic Grid: http://www.semantic.gs
+ * Susy: http://susy.oddbird.net
+ * Negative Grid: http://chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta/
+ *
+ * @author Profound Creative Studio
+ * @url http://www.profoundgrid.com
+ * @url http://www.weareprofound.com 
+ */
+/**
+ * Clearfix
+ */
+/**
+ * Legacy Clearfix
+ */
+/**
+ * Establish the grid-containing element.
+ */
+/**
+ * Align an element to the grid.
+ */
+/**
+ * Apply to any column to make it the last one of the current row.
+ */
+/* line 17, ../sass/screen copy.scss */
+div, span, section, header, footer, article {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 19, ../sass/screen copy.scss */
+.container img {
+  width: 100%;
+}
+
+/* line 21, ../sass/screen copy.scss */
+body {
+  font-family: "arial";
+}
+
+/* line 25, ../sass/screen copy.scss */
+.clear {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 26, ../sass/screen copy.scss */
+header {
+  width: 100%;
+  padding-top: 10px;
+  position: fixed;
+  top: 0px;
+  background: white;
+  z-index: 4;
+  box-shadow: 0px 3px 5px #888888;
+}
+/* line 35, ../sass/screen copy.scss */
+header .centered {
+  width: 98%;
+  margin: 0 1%;
+  width: 100%;
+  margin: 0px auto;
+}
+/* line 41, ../sass/screen copy.scss */
+header .centered section {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+  text-align: center;
+}
+/* line 44, ../sass/screen copy.scss */
+header .centered section img {
+  width: auto;
+}
+/* line 189, ../sass/_grid.scss */
+header .centered section:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 1%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 50, ../sass/screen copy.scss */
+.banner {
+  margin-top: 113px;
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 54, ../sass/screen copy.scss */
+.banner img {
+  width: 100%;
+}
+/* line 55, ../sass/screen copy.scss */
+.banner .banner_image {
+  position: relative;
+}
+/* line 57, ../sass/screen copy.scss */
+.banner .banner_image .banner_text {
+  position: absolute;
+  top: 35%;
+  left: 0px;
+  color: white;
+  width: 100%;
+}
+
+/* line 67, ../sass/screen copy.scss */
+.main-content {
+  overflow: hidden;
+  *zoom: 1;
+  width: 100%;
+  margin: 0px auto;
+  background: white;
+  min-height: 200px;
+  z-index: 3;
+  position: relative;
+}
+
+/* line 79, ../sass/screen copy.scss */
+footer {
+  width: 100%;
+  background: white;
+  min-height: 50px;
+}
+
+/* line 85, ../sass/screen copy.scss */
+.full-width, .twocolumns, .threecolumns, .fourcolumn {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0 2%;
+}
+/* line 86, ../sass/screen copy.scss */
+.full-width section, .twocolumns section, .threecolumns section, .fourcolumn section {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+/* line 189, ../sass/_grid.scss */
+.full-width section:nth-child(1n+1), .twocolumns section:nth-child(1n+1), .threecolumns section:nth-child(1n+1), .fourcolumn section:nth-child(1n+1) {
+  margin-left: 0%;
+  margin-bottom: 1%;
+  clear: both;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 92, ../sass/screen copy.scss */
+.full-width {
+  padding: 0;
+}
+
+/* line 96, ../sass/screen copy.scss */
+.icon img {
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 97, ../sass/screen copy.scss */
+.tagline {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+@media screen and (min-device-width: 720px) and (min-width: 720px) {
+  /* line 101, ../sass/screen copy.scss */
+  .banner {
+    margin-top: 50px;
+  }
+
+  /* line 103, ../sass/screen copy.scss */
+  header .centered {
+    width: 100%;
+    padding: 0 2%;
+  }
+  /* line 106, ../sass/screen copy.scss */
+  header .centered section {
+    float: left;
+    margin-right: -100%;
+    width: 32.67%;
+  }
+  /* line 189, ../sass/_grid.scss */
+  header .centered section:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 1%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 189, ../sass/_grid.scss */
+  header .centered section:nth-child(3n+2) {
+    margin-left: 33.67%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+  /* line 189, ../sass/_grid.scss */
+  header .centered section:nth-child(3n+3) {
+    margin-left: 67.33%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+  /* line 111, ../sass/screen copy.scss */
+  header .centered .tagline {
+    text-align: right;
+    padding: 20px 0px 0px 0px;
+  }
+  /* line 112, ../sass/screen copy.scss */
+  header .centered .icon {
+    text-align: left;
+  }
+
+  /* line 117, ../sass/screen copy.scss */
+  .twocolumns {
+    padding: 0 2%;
+  }
+  /* line 119, ../sass/screen copy.scss */
+  .twocolumns section {
+    float: left;
+    margin-right: -100%;
+    width: 49.5%;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .twocolumns section:nth-child(2n+1) {
+    margin-left: 0%;
+    margin-bottom: 1%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .twocolumns section:nth-child(2n+2) {
+    margin-left: 50.5%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+
+  /* line 123, ../sass/screen copy.scss */
+  .fourcolumns {
+    padding: 0 2%;
+  }
+  /* line 125, ../sass/screen copy.scss */
+  .fourcolumns section {
+    float: left;
+    margin-right: -100%;
+    width: 49.5%;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .fourcolumns section:nth-child(2n+1) {
+    margin-left: 0%;
+    margin-bottom: 1%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .fourcolumns section:nth-child(2n+2) {
+    margin-left: 50.5%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+
+  /* line 129, ../sass/screen copy.scss */
+  .threecolumns {
+    padding: 0 2%;
+  }
+}
+@media screen and (min-device-width: 920px) and (min-width: 920px) {
+  /* line 136, ../sass/screen copy.scss */
+  .banner {
+    margin-top: 50px;
+  }
+
+  /* line 139, ../sass/screen copy.scss */
+  header .centered {
+    width: 920px;
+  }
+
+  /* line 143, ../sass/screen copy.scss */
+  .main-content {
+    width: 920px;
+    margin-top: -80px;
+  }
+
+  /* line 146, ../sass/screen copy.scss */
+  .twocolumns section {
+    float: left;
+    margin-right: -100%;
+    width: 49.5%;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .twocolumns section:nth-child(2n+1) {
+    margin-left: 0%;
+    margin-bottom: 1%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .twocolumns section:nth-child(2n+2) {
+    margin-left: 50.5%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+
+  /* line 151, ../sass/screen copy.scss */
+  .threecolumns section {
+    float: left;
+    margin-right: -100%;
+    width: 32.67%;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .threecolumns section:nth-child(3n+1) {
+    margin-left: 0%;
+    margin-bottom: 1%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .threecolumns section:nth-child(3n+2) {
+    margin-left: 33.67%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .threecolumns section:nth-child(3n+3) {
+    margin-left: 67.33%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+
+  /* line 155, ../sass/screen copy.scss */
+  .fourcolumns section {
+    float: left;
+    margin-right: -100%;
+    width: 24.25%;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .fourcolumns section:nth-child(4n+1) {
+    margin-left: 0%;
+    margin-bottom: 1%;
+    clear: both;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .fourcolumns section:nth-child(4n+2) {
+    margin-left: 25.25%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .fourcolumns section:nth-child(4n+3) {
+    margin-left: 50.5%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+  /* line 189, ../sass/_grid.scss */
+  .fourcolumns section:nth-child(4n+4) {
+    margin-left: 75.75%;
+    margin-bottom: 1%;
+    clear: none;
+  }
+}
+/* line 161, ../sass/screen copy.scss */
+.editable {
+  margin-top: 10px;
+  position: relative;
+}
