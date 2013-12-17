@@ -8,7 +8,8 @@ global $u;
 <?php  Loader::element('header_required'); ?>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+<script type="text/javascript" src="//use.typekit.net/kcy3vvf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <!-- Site Header Content //-->
 <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getThemePath();?>/stylesheets/screen.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getThemePath(); ?>/stylesheets/typography.css" />
