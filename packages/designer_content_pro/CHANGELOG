@@ -1,0 +1,2 @@
+1.0.1 - Fixed a bug that prevented new blocktypes from being created on certain PHP/OS installations.
+1.0 - Initial Version
