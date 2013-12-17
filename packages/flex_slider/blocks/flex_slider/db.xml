@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<schema version="0.3">
+	<table name="btFlexSlider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" type="I"><unsigned /></field>
+		<field name="maxHeight" type="I"><unsigned /></field>
+		<field name="maxWidth" type="I"><unsigned /></field>
+        <field name="title" type="C" size="255"></field>
+        <field name="showTitle" type="L"></field>
+        <field name="link" type="C" size="255"></field>
+		<field name="namespace" type="C" size="255"></field>
+		<field name="selector" type="C" size="255"></field>
+		<field name="animation" type="C" size="255"></field>
+		<field name="easing" type="C" size="255"></field>
+		<field name="direction" type="C" size="255"></field>
+		<field name="reverse" type="L"></field>
+		<field name="animationLoop" type="L"></field>
+		<field name="animationSpeed" type="C" size="255"></field>
+		<field name="controlNav" type="L"></field>
+		<field name="directionNav" type="L" ></field>
+		<field name="class" type="C" size="255"></field>
+	</table>
+
+	<table name="btFlexSliderImg">
+		<field name="GalleryImgId" type="I">
+			<key />
+			<autoincrement />
+			<unsigned />
+		</field>
+		<field name="bID" type="I"><unsigned /></field>
+		<field name="fID" type="I"><unsigned /></field>
+        <field name="position" type="I"><unsigned /></field>	
+		<field name="imgHeight" type="I"><unsigned /></field>	
+		<field name="imgWidth" type="I"><unsigned /></field>
+		<field name="imgLink" type="C" size="255"></field>
+	</table>
+</schema>

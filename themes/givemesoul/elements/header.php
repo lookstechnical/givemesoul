@@ -14,11 +14,18 @@ global $u;
 <link rel="stylesheet" media="screen" type="text/css" href="<?php echo $this->getThemePath(); ?>/stylesheets/typography.css" />
 <script type="text/javascript" src="//use.typekit.net/kcy3vvf.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-				<script type="text/javascript" src="<?php echo $this->getThemePath();?>/js/fluidvids.js"></script>
+<script type="text/javascript" src="<?php echo $this->getThemePath();?>/js/fluidvids.js"></script>
 
 
 </head>
-<body>
+<?php
+	
+	
+	$background = $c->getAttribute('background_image');
+	
+
+?>
+<body <?php if($background): ?>background="<?php echo $background->getRelativePath(); ?>"<?php endif; ?>>
 
 <div class="container">
 <header <?php  if ($u->isLoggedIn()) {?> class="editable" <?php } ?>>

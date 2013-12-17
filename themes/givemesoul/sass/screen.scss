@@ -19,7 +19,8 @@ div,span,section,header,footer,article{box-sizing: border-box; -moz-box-sizing: 
 .container img{width:100%}
 
 body{
-	font-family: 'arial'
+	font-family: 'arial';
+	background-position: center bottom;
 }
 
 .clear{@include clearfix()}
@@ -140,8 +141,8 @@ footer{
 			width:920px;
 		}
 	}
-	.main-content {width:920px; margin-top:-80px;}
-	
+	.main-content {width:920px; }
+	.overlaycollumn{margin-top: -80px}
 	.twocolumns{
 		section{@include column(6)}
 		@include generate_grid_positions(section, 6);

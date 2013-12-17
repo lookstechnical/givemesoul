@@ -1,0 +1,21 @@
+<?php xml version="1.0"?>
+
+<!--
+WARNING: This is generated code.
+Anything in this file may get overwritten or deleted without warning.
+Do NOT edit, rename, move, or delete this file (doing so will cause errors).
+-->
+
+<schema version="0.4">
+	<table name="btDcpFlexSlider">
+		<field name="bID" type="I"><key /><unsigned /></field>
+		<field name="repeatingItemData" type="X2"></field>
+		<field name="name" type="C"></field>
+		<field name="animationType" type="I"></field>
+		<field name="animationSpeed" type="C"></field>
+		<field name="animationLoop" type="I"></field>
+		<field name="direction" type="C"></field>
+		<field name="controlNav" type="I"></field>
+		<field name="directionNav" type="I"></field>
+	</table>
+</schema>
