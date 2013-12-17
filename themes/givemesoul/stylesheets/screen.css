@@ -120,15 +120,18 @@ div, span, section, header, footer, article {
 body {
   font-family: 'arial';
   background-position: center bottom;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .clear {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 header {
   width: 100%;
   padding-top: 10px;
@@ -138,21 +141,21 @@ header {
   z-index: 4;
   box-shadow: 0px 3px 5px #888888;
 }
-/* line 36, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 header .centered {
   width: 98%;
   margin: 0 1%;
   width: 100%;
   margin: 0px auto;
 }
-/* line 42, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 header .centered section {
   float: left;
   margin-right: -100%;
   width: 100%;
   text-align: center;
 }
-/* line 45, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 header .centered section img {
   width: auto;
 }
@@ -165,31 +168,32 @@ header .centered section:nth-child(1n+1) {
   *zoom: 1;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .banner {
   margin-top: 113px;
   width: 100%;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 55, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .banner img {
   width: 100%;
 }
-/* line 56, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .banner .banner_image {
   position: relative;
 }
-/* line 58, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .banner .banner_image .banner_text {
   position: absolute;
   top: 35%;
   left: 0px;
   color: white;
+  padding: 10px;
   width: 100%;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .main-content {
   overflow: hidden;
   *zoom: 1;
@@ -201,20 +205,20 @@ header .centered section:nth-child(1n+1) {
   position: relative;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 footer {
   width: 100%;
   background: white;
   min-height: 50px;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .full-width, .twocolumns, .threecolumns, .fourcolumn {
   overflow: hidden;
   *zoom: 1;
   padding: 0 2%;
 }
-/* line 87, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .full-width section, .twocolumns section, .threecolumns section, .fourcolumn section {
   float: left;
   margin-right: -100%;
@@ -229,34 +233,34 @@ footer {
   *zoom: 1;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .full-width {
   padding: 0;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .icon img {
   padding: 0px 0px 0px 0px;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .tagline {
   font-size: 11px;
   font-weight: bold;
 }
 
 @media screen and (min-device-width: 720px) and (min-width: 720px) {
-  /* line 102, ../sass/screen.scss */
+  /* line 106, ../sass/screen.scss */
   .banner {
     margin-top: 50px;
   }
 
-  /* line 104, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   header .centered {
     width: 100%;
     padding: 0 2%;
   }
-  /* line 107, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   header .centered section {
     float: left;
     margin-right: -100%;
@@ -282,21 +286,21 @@ footer {
     margin-bottom: 1%;
     clear: none;
   }
-  /* line 112, ../sass/screen.scss */
+  /* line 116, ../sass/screen.scss */
   header .centered .tagline {
     text-align: right;
     padding: 20px 0px 0px 0px;
   }
-  /* line 113, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   header .centered .icon {
     text-align: left;
   }
 
-  /* line 118, ../sass/screen.scss */
+  /* line 122, ../sass/screen.scss */
   .twocolumns {
     padding: 0 2%;
   }
-  /* line 120, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   .twocolumns section {
     float: left;
     margin-right: -100%;
@@ -317,11 +321,11 @@ footer {
     clear: none;
   }
 
-  /* line 124, ../sass/screen.scss */
+  /* line 128, ../sass/screen.scss */
   .fourcolumns {
     padding: 0 2%;
   }
-  /* line 126, ../sass/screen.scss */
+  /* line 130, ../sass/screen.scss */
   .fourcolumns section {
     float: left;
     margin-right: -100%;
@@ -342,33 +346,33 @@ footer {
     clear: none;
   }
 
-  /* line 130, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   .threecolumns {
     padding: 0 2%;
   }
 }
 @media screen and (min-device-width: 920px) and (min-width: 920px) {
-  /* line 137, ../sass/screen.scss */
+  /* line 141, ../sass/screen.scss */
   .banner {
     margin-top: 50px;
   }
 
-  /* line 140, ../sass/screen.scss */
+  /* line 144, ../sass/screen.scss */
   header .centered {
     width: 920px;
   }
 
-  /* line 144, ../sass/screen.scss */
+  /* line 148, ../sass/screen.scss */
   .main-content {
     width: 920px;
   }
 
-  /* line 145, ../sass/screen.scss */
+  /* line 149, ../sass/screen.scss */
   .overlaycollumn {
     margin-top: -80px;
   }
 
-  /* line 147, ../sass/screen.scss */
+  /* line 151, ../sass/screen.scss */
   .twocolumns section {
     float: left;
     margin-right: -100%;
@@ -389,7 +393,7 @@ footer {
     clear: none;
   }
 
-  /* line 152, ../sass/screen.scss */
+  /* line 156, ../sass/screen.scss */
   .threecolumns section {
     float: left;
     margin-right: -100%;
@@ -416,7 +420,7 @@ footer {
     clear: none;
   }
 
-  /* line 156, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   .fourcolumns section {
     float: left;
     margin-right: -100%;
@@ -449,7 +453,7 @@ footer {
     clear: none;
   }
 }
-/* line 162, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .editable {
   margin-top: 10px;
   position: relative;

@@ -19,8 +19,11 @@ div,span,section,header,footer,article{box-sizing: border-box; -moz-box-sizing: 
 .container img{width:100%}
 
 body{
+	
 	font-family: 'arial';
 	background-position: center bottom;
+	background-repeat: no-repeat;
+	margin:0px; padding: 0px;
 }
 
 .clear{@include clearfix()}
@@ -60,6 +63,7 @@ header {
 			top:35%;
 			left:0px;
 			color:white;
+			padding:10px;
 			width: 100%;
 		}
 	}

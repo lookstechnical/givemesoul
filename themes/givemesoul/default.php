@@ -2,6 +2,9 @@
 defined('C5_EXECUTE') or die("Access Denied.");
 $this->inc('elements/header.php'); 
 global $u;?>
+
+
+
 <section class="main-content <?php  if ($c->isEditMode()) {?> editable <?php } ?>   <?php  if (!$u->isLoggedIn()) {?> overlaycollumn <?php } ?> " >
 	<div class="full-width">
 		<?php 
@@ -69,6 +72,7 @@ global $u;?>
 			?>
 		</section>
 	</div>
+	<div class="clear"></div>
 </section>
 
 

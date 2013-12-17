@@ -56,7 +56,7 @@ global $c;
 <link rel="stylesheet" media="screen" type="text/css" href="/css/flexslider.css" />
 <script type="text/javascript" src="/js/jquery.flexslider.js"></script>
 <script type="text/javascript">
-	jQuery(window).load(function(){
+	jQuery(document).ready(function(){
 		jQuery('.<?php echo $title ?>-flexslider').flexslider({
         animation:  "<?php echo $animationType; ?>",
         animationSpeed:  "<?php echo $animationSpeed; ?>",
