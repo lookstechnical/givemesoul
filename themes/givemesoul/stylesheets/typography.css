@@ -1,21 +1,22 @@
 /* line 1, ../sass/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   padding: 10px 0px;
+  text-transform: uppercase;
 }
 
 /* line 2, ../sass/typography.scss */
 h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 /* line 3, ../sass/typography.scss */
 h2 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 /* line 4, ../sass/typography.scss */
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /* line 5, ../sass/typography.scss */
@@ -67,22 +68,22 @@ h6 {
 @media screen and (min-device-width: 920px) and (min-width: 920px) {
   /* line 25, ../sass/typography.scss */
   h1 {
-    font-size: 5em;
+    font-size: 4em;
   }
 
   /* line 26, ../sass/typography.scss */
   h2 {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   /* line 27, ../sass/typography.scss */
   h3 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   /* line 28, ../sass/typography.scss */
   h4 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   /* line 29, ../sass/typography.scss */
