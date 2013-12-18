@@ -35,77 +35,170 @@ h6 {
   font-size: 0.5em;
 }
 
+/* line 10, ../sass/typography.scss */
+.banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 11, ../sass/typography.scss */
+.banner h1 {
+  font-size: 1em;
+}
+/* line 12, ../sass/typography.scss */
+.banner h2 {
+  font-size: 0.9em;
+}
+/* line 13, ../sass/typography.scss */
+.banner h3 {
+  font-size: 0.8em;
+}
+/* line 14, ../sass/typography.scss */
+.banner h4 {
+  font-size: 0.7em;
+}
+/* line 15, ../sass/typography.scss */
+.banner h5 {
+  font-size: 0.6em;
+}
+/* line 16, ../sass/typography.scss */
+.banner h6 {
+  font-size: 0.5em;
+}
+
 @media screen and (min-device-width: 720px) and (min-width: 720px) {
-  /* line 12, ../sass/typography.scss */
+  /* line 23, ../sass/typography.scss */
   h1, h2, h3, h4, h5, h6 {
     padding: 8px 0px;
     text-transform: uppercase;
   }
 
-  /* line 13, ../sass/typography.scss */
+  /* line 24, ../sass/typography.scss */
   h1 {
-    font-size: 3em;
-  }
-
-  /* line 14, ../sass/typography.scss */
-  h2 {
     font-size: 2.5em;
   }
 
-  /* line 15, ../sass/typography.scss */
-  h3 {
+  /* line 25, ../sass/typography.scss */
+  h2 {
     font-size: 2em;
   }
 
-  /* line 16, ../sass/typography.scss */
+  /* line 26, ../sass/typography.scss */
+  h3 {
+    font-size: 1.5em;
+  }
+
+  /* line 27, ../sass/typography.scss */
   h4 {
     font-size: 1em;
   }
 
-  /* line 17, ../sass/typography.scss */
+  /* line 28, ../sass/typography.scss */
   h5 {
     font-size: 0.75em;
   }
 
-  /* line 18, ../sass/typography.scss */
+  /* line 29, ../sass/typography.scss */
   h6 {
+    font-size: 0.5em;
+  }
+
+  /* line 32, ../sass/typography.scss */
+  .banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  /* line 33, ../sass/typography.scss */
+  .banner h1 {
+    font-size: 3em;
+  }
+  /* line 34, ../sass/typography.scss */
+  .banner h2 {
+    font-size: 2.5em;
+  }
+  /* line 35, ../sass/typography.scss */
+  .banner h3 {
+    font-size: 2em;
+  }
+  /* line 36, ../sass/typography.scss */
+  .banner h4 {
+    font-size: 1em;
+  }
+  /* line 37, ../sass/typography.scss */
+  .banner h5 {
+    font-size: 0.75em;
+  }
+  /* line 38, ../sass/typography.scss */
+  .banner h6 {
     font-size: 0.5em;
   }
 }
 @media screen and (min-device-width: 920px) and (min-width: 920px) {
-  /* line 24, ../sass/typography.scss */
+  /* line 47, ../sass/typography.scss */
   h1, h2, h3, h4, h5, h6 {
     padding: 10px 0px;
     text-transform: uppercase;
   }
 
-  /* line 25, ../sass/typography.scss */
+  /* line 48, ../sass/typography.scss */
   h1 {
-    font-size: 4em;
+    font-size: 2.5em;
   }
 
-  /* line 26, ../sass/typography.scss */
+  /* line 49, ../sass/typography.scss */
   h2 {
-    font-size: 3em;
-  }
-
-  /* line 27, ../sass/typography.scss */
-  h3 {
     font-size: 2em;
   }
 
-  /* line 28, ../sass/typography.scss */
-  h4 {
+  /* line 50, ../sass/typography.scss */
+  h3 {
     font-size: 1.5em;
   }
 
-  /* line 29, ../sass/typography.scss */
-  h5 {
+  /* line 51, ../sass/typography.scss */
+  h4 {
     font-size: 1em;
   }
 
-  /* line 30, ../sass/typography.scss */
+  /* line 52, ../sass/typography.scss */
+  h5 {
+    font-size: 0.75em;
+  }
+
+  /* line 53, ../sass/typography.scss */
   h6 {
+    font-size: 0.5em;
+  }
+
+  /* line 57, ../sass/typography.scss */
+  .banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  /* line 58, ../sass/typography.scss */
+  .banner h1 {
+    font-size: 4em;
+  }
+  /* line 59, ../sass/typography.scss */
+  .banner h2 {
+    font-size: 3em;
+  }
+  /* line 60, ../sass/typography.scss */
+  .banner h3 {
+    font-size: 2em;
+  }
+  /* line 61, ../sass/typography.scss */
+  .banner h4 {
+    font-size: 1em;
+  }
+  /* line 62, ../sass/typography.scss */
+  .banner h5 {
+    font-size: 0.75em;
+  }
+  /* line 63, ../sass/typography.scss */
+  .banner h6 {
     font-size: 0.5em;
   }
 }
